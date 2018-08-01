@@ -55,5 +55,9 @@ module Domainatrix
     def ip?
       @ip
     end
+    
+    def port?
+      @port
+    end
   end
 end
